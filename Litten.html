@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Litten</title>
+<style>
+body { 
+    background-color: #e55846;
+}	
+
+/* Style voor de tabel */
+table, th, td {
+  border: 0.5px solid black;
+  border-collapse: collapse;
+}
+
+/* Style voor de tekst (en button) */
+.article {
+	font-size: 18px;
+	width: 50%;
+	margin: 3%;
+	background-color:#e55846;
+}
+
+/* de 4 dingen hieronder zijn de style voor de navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.Active) {
+  background-color: #111;
+}
+
+/* de 2 dingen hieronder zorgen ervoor dat elke knop in de navbar zijn eigen style heeft */
+.Active {
+  background-color: #e55846;
+}
+a.Alola:hover, a.Alola:active   {color: #a9ccc9;}
+a.Rowlet:hover, a.Rowlet:active {color: #23a785;}
+a.Litten:hover, a.Litten:active {color: #e55846;}
+a.Popplio:hover, a.Popplio:active{color:#64bcd2;}
+</style>
+<body>
+<!--Dit is de navbar-->
+<ul style="font-family:courier";>
+  <li><a class="Alola" href="Alola.html">Alola</a></li>
+  <li><a class="Rowlet" href="Rowlet.html">Rowlet</a></li>
+  <li><a class="Active">Litten</a></li>
+  <li><a class="Popplio" href="Popplio.html">Popplio</a></li>
+</ul>
+
+<center><h1>Litten</h1>
+<p style="font-size:140%;"><i> The Fire Cat Pokémon</I></p> </center>
+<hr style="height:2px;border-width:0;color:#333;background-color:#333">
+<a href="https://bulbapedia.bulbagarden.net/wiki/Litten_(Pok%C3%A9mon)">
+<img src="Resources/Litten/Litten.png"  style="width:35%;height:18,5%;float:right;">
+</a>
+
+<div class="article">
+<p> Litten is a fire type Pokémon from Generation VII.
+	<br><br>
+	Litten evolves into Torracat at lvl 17, Who evolves into Incineroar at level 34.
+	<br>
+	Along with Rowlet and Popplio, Litten is one of three starter Pokémon of Alola 
+	available at the beginning of Pokémon Sun, Moon, Ultra Sun, and Ultra Moon.
+	<br> <br> 
+Litten is a solitary Pokémon that does not typically display its emotions, and should not be given too much affection.
+While grooming, it collects fur inside its stomach. 
+By setting the stored fur alight, it can spit fireballs that change based on how it coughs. 
+Litten's fur produces flammable oils, and when it begins shedding, it burns all its fur in a blaze. 
+Its fur coat regrows twice a year.
+</p>
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/joi1nH5P4eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr style="height:2px;border-width:0;color:#333;background-color:#333">
+
+<div class="article">
+<button style="color:#fe6256;background-color:#fefff7;" href="#" onclick="toggle_visibility('Litten');">Click here to hide/show moves</button>
+<div id="Litten"><h2>Moves</h2>
+<p> There are multiple ways to learn moves.</p>
+<li style="display:;list-item;">By <b>Leveling up</b></li>
+	<br>
+	<ul Style="background-color:#e55846">
+		<table style="background-color:white;">
+		<caption style="font-size:130%;"><b> Generation VIII <b> </caption>
+		<br>
+			<tbody><tr style="background-color:#b68ee6;"> 
+				<th>Level</th>
+				<th>Move</th>
+				<th>Type</th>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">1 </td>
+				<td>Scratch</td>
+				<td style="background-color:#A8A878;text-align: center;">Normal</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">1 </td>
+				<td>Growl</td>
+				<td style="background-color:#A8A878;text-align: center;">Normal</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">3 </td>
+				<td>Ember</td>
+				<td style="background-color:#f08030;text-align: center;">Fire</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">6 </td>
+				<td>Lick</td>
+				<td style="background-color:#705898;text-align: center;">Ghost</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">9 </td>
+				<td>Roar</td>
+				<td style="background-color:#A8A878;text-align: center;">Normal</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">12 </td>
+				<td>Fure Swipes</td>
+				<td style="background-color:#A8A878;text-align: center;">Normal</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">15 </td>
+				<td>Bite</td>
+				<td style="background-color:#705848;text-align: center;">Dark</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">18</td>
+				<td>Double Kick</td>
+				<td style="background-color:#c03028;text-align: center;">Fighting</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">21 </td>
+				<td>Fire Fang</td>
+				<td style="background-color:#f08030;text-align: center;">Fire</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">24 </td>
+				<td>Scary Face</td>
+				<td style="background-color:#A8A878;text-align: center;">Normal</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">27 </td>
+				<td>Swagger</td>
+				<td style="background-color:#A8A878;text-align: center;">Normal</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">30 </td>
+				<td>Flamethrower</td>
+				<td style="background-color:#f08030;text-align: center;">Fire</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">33 </td>
+				<td>Thrash</td>
+				<td style="background-color:#A8A878;text-align: center;">Normal</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">36 </td>
+				<td>Flare Blitz</td>
+				<td style="background-color:#f08030;text-align: center;">Fire</td>
+			</tr>
+		</tbody></table>
+		<br>
+	</ul>
+<br>
+	<li style="display:;list-item;">By <b>TM/TR</b></li>
+	<br><br>
+	<li style="display:;list-item;">By <b>Breeding</b></li>
+	<br><br>
+	<li style="display:;list-item;">By <b>Tutoring</b></li>
+	<br><br>
+	<li style="display:;list-item;">By <b>Transfer</b> from <b>another Generation</b></li>
+	
+</P></div>
+<!-- dit zorgt ervoor dat de button werkt-->
+<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+</script>
+</body>
+</html>

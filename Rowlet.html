@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rowlet</title>
+<style>
+body {
+	background-color: #2b8854;
+}
+
+/* Style voor de tabel */
+table, th, td {
+  border: 0.5px solid black;
+  border-collapse: collapse;
+}
+
+/* Style voor de tekst (en button) */
+.article {
+	font-size: 18px;
+	width: 50%;
+	margin: 3%;
+}
+
+/* de 4 dingen hieronder zijn de style voor de navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.Active) {
+  background-color: #111;
+}
+
+/* de 2 dingen hieronder zorgen ervoor dat elke knop in de navbar zijn eigen style heeft */
+.Active {
+  background-color: #2b8854;
+}
+a.Alola:hover, a.Alola:active   {color: #a9ccc9;}
+a.Rowlet:hover, a.Rowlet:active {color: #23a785;}
+a.Litten:hover, a.Litten:active {color: #e55846;}
+a.Popplio:hover, a.Popplio:active{color:#64bcd2;}
+</style>
+</head>
+<body>
+<!--Dit is de navbar-->
+<ul style="font-family:courier";>
+  <li><a class="Alola" href="Alola.html">Alola</a></li>
+  <li><a class="Active" >Rowlet</a></li>
+  <li><a class="Litten" href="Litten.html">Litten</a></li>
+  <li><a class="Popplio" href="Popplio.html">Popplio</a></li>
+</ul>
+
+<center><h1>Rowlet</h1>
+<p style="font-size:140%;"><i> The Grass Quill Pokémon</i></p> </center>
+<hr style="height:2px;border-width:0;color:#333;background-color:#333">
+<a href="https://bulbapedia.bulbagarden.net/wiki/Rowlet_(Pok%C3%A9mon)">
+<img src="Resources/Rowlet/Rowlet.png"  style="width:35%;height:18,5%;float:right;">
+</a>
+
+<div class="article">
+<p> Rowlet is a grass/flying type Pokémon from Generation VII.
+	<br><br>
+	Rowlet evolves into Dratrix at lvl 17, Who evolves into Decidueye at level 34.
+	<br>
+	Along with Litten and Popplio, Rowlet is one of three starter Pokémon of Alola 
+	available at the beginning of Pokémon Sun, Moon, Ultra Sun, and Ultra Moon.
+	<br> <br> 
+	Rowlet is a nocturnal Pokémon, so it stores energy during the day through photosynthesis.
+	Rowlet approaches opponents by silently gliding, before unleashing a volley of kicks.
+	This Pokémon is able to rotate its head almost 180 degrees and has excellent night vision. 
+	Its feathers are as sharp as blades, which it launches at foes from the air. 
+	Rowlet feel most relaxed in tight, dark spaces.
+</p>
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T179llqP0CA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr style="height:2px;border-width:0;color:#333;background-color:#333">
+
+<div class="article">
+<button style="color:#0ba3b8;background-color:#83d0b3;" href="#" onclick="toggle_visibility('Rowlet');">Click here to hide/show moves</button>
+<div id="Rowlet"><h2>Moves</h2>
+<p> There are multiple ways to learn moves.</p>
+<li style="display:;list-item;">By <b>Leveling up</b></li>
+	<br>
+	<ul Style="background-color:#2b8854">
+		<table style="background-color:white;">
+		<caption style="font-size:130%;"><b> Generation VIII <b> </caption>
+		<br>
+			<tbody><tr style="background-color:#b68ee6;"> 
+				<th>Level</th>
+				<th>Move</th>
+				<th>Type</th>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">1 </td>
+				<td>Tackle</td>
+				<td style="background-color:#A8A878;text-align: center;">Normal</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">1 </td>
+				<td>Growl</td>
+				<td style="background-color:#A8A878;text-align: center;">Normal</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">3 </td>
+				<td>Leafage</td>
+				<td style="background-color:#78C850;text-align: center;">Grass</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">6 </td>
+				<td>Astonish</td>
+				<td style="background-color:#705898;text-align: center;">Ghost</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">9 </td>
+				<td>Peck</td>
+				<td style="background-color:#A890F0;text-align: center;">Flying</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">12 </td>
+				<td>Shadow Sneak</td>
+				<td style="background-color:#705898;text-align: center;">Ghost</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">15 </td>
+				<td>Razor Leaf</td>
+				<td style="background-color:#78C850;text-align: center;">Grass</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">18</td>
+				<td>Synthesis</td>
+				<td style="background-color:#78C850;text-align: center;">Grass</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">21 </td>
+				<td>Pluck</td>
+				<td style="background-color:#A890F0;text-align: center;">Flying</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">24 </td>
+				<td>Nasty Plot</td>
+				<td style="background-color:#705848;text-align: center;">Dark</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">27 </td>
+				<td>Sucker Punch</td>
+				<td style="background-color:#705848;text-align: center;">Dark</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">30 </td>
+				<td>Leaf blade</td>
+				<td style="background-color:#78C850;text-align: center;">Grass</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">33 </td>
+				<td>Feather Dance</td>
+				<td style="background-color:#A890F0;text-align: center;">Flying</td>
+			</tr>
+			<tr>
+				<td Style="text-align: center;">36 </td>
+				<td>Brave Bird</td>
+				<td style="background-color:#A890F0;text-align: center;">Flying</td>
+			</tr>
+		</tbody></table>
+<br>
+	</ul>
+	<br>
+	<li style="display:;list-item;">By <b>TM/TR</b></li>
+	<br><br>
+	<li style="display:;list-item;">By <b>Breeding</b></li>
+	<br><br>
+	<li style="display:;list-item;">By <b>Tutoring</b></li>
+	<br><br>
+	<li style="display:;list-item;">By <b>Transfer</b> from <b>another Generation</b></li>
+	
+</P>
+</div>
+</button>
+<!-- dit zorgt ervoor dat de button werkt-->
+<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+</script>
+</body>
+</html>

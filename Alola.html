@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alola</title>
+<style>
+/* style voor de body */
+body {
+	background-color: #a9ccc9;
+	background-image: url("Resources/Alola/Alola_Background_Org.jpg"); 
+	background-size: cover ;
+	background-repeat: no-repeat;
+
+}
+
+/* div blok voor de tekst */
+.article {
+    font-size: 18px;
+    width: 50%;
+    margin: 3%;
+    background-color: #a9ccc9;
+
+}
+
+/* div blok voor de header/bovenkant */
+.header {
+    background-color: #a9ccc9;
+    padding: 1px;
+}
+
+/* de 4 dingen hieronder zijn de style voor de navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.Active) {
+  background-color: #111;
+}
+
+/* div blok voor de positie van de datum */
+.datum {
+    padding:5px;
+    margin:1%;
+    width:100%;
+    color:#a9ccc9
+}   
+
+/* de 2 dingen hieronder zorgen ervoor dat elke knop in de navbar zijn eigen style heeft */
+.Active {
+    background-color: #a9ccc9;
+}
+a.Alola:hover, a.Alola:active   {color: #a9ccc9;}
+a.Rowlet:hover, a.Rowlet:active {color: #23a785;}
+a.Litten:hover, a.Litten:active {color: #e55846;}
+a.Popplio:hover, a.Popplio:active{color:#64bcd2;}
+</style>
+</head>
+<body>
+<!--Dit is de navbar-->
+<ul style="font-family:courier"; >
+  <li><a class="Active">Alola</a></li>
+  <li><a class="Rowlet" href="Rowlet.html">Rowlet</a></li>
+  <li><a class="Litten" href="Litten.html">Litten</a></li>
+  <li><a class="Popplio" href="Popplio.html">Popplio</a></li>
+  <li style="float:right"><p class="datum" id="datum"></p></li> <!--Links is de plek van de datum-->
+</ul>
+<div class="header">
+<center><h1> <b>Alola</b> </h1></center>
+<center><p style="font-size:140%;"><i> The Island Region</i></p> </center>
+<hr style="height:2px;border-width:0;color:#333;background-color:#333">
+</div>
+<br>
+<img src="Resources/Alola/Alola_Map.png"alt=" Map of Alola " style="width:30%;height:20%;float:right;"></span>
+<div class="article"> 
+<p> The Alola region is a region in the pokemon universe.
+	It is the seventh region in the series and is the setting of Pokemon sun and moon.
+	<br> <br>
+	Alola is made up of five different islands, There are four natural islands and one artificial.
+	The four natrural islands are Melemele Island, Akala Island, Ula'ula Island en Poni Island.
+	These islands are named after colors in hawaiian. Melemele means Yellow, Akala means pink, Ula'ula means red and poni means purple. 
+	The artificial island is Aether Paradise. Alola is a populair vaktion destination and so attrects a lot of tourists
+	from the other regions.
+</p>
+</div>
+<h2 style= "margin: 3%;"> Starter Pokemon </h2>
+<img src="Resources/Alola/starters.gif"	alt="staters"  style="width:20%;height:15%;float:right;">	
+<div class="article">The starter pokemon from Alola are<b> <a href="/HTML PO/Rowlet.html"> Rowlet</a>, <a href="/HTML PO/Litten.html">Litten</a> and <a href="/HTML PO/Popplio.html">Popplio</a>.</b>
+	<br> 
+	To find more about these pokemon click on the links of the pokemon name.
+</p>
+</div>
+<!--dit is de datum rechts in de navbar-->
+<script>
+const d = new Date();
+let text = d.toLocaleDateString();
+document.getElementById("datum").innerHTML = text;
+</script>
+</body>
+</html>
